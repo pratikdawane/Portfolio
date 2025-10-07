@@ -66,7 +66,7 @@ const Navbar = ({ activeSection }) => {
             className={styles.resume}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            href="https://drive.google.com/file/d/1tIA_bm07hiV-NXvwIX2dtbXtp2ojy8Xg/view?usp=sharing" 
+            href="https://drive.google.com/file/d/19uka0I0zhEGSDxt7Enl0N_x4binNnE9W/view?usp=sharing" 
             style={{color: "#94a3b8", fontSize: "0.8rem", border: "1px solid #00f5ff", padding: "0.4rem", borderRadius: "6px"}}> 
               Resume <FaArrowDown color='#00f5ff' /> 
             </motion.a>
@@ -88,5 +88,6 @@ const Navbar = ({ activeSection }) => {
     </motion.header>
   );
 };
+
 
 export default Navbar;
