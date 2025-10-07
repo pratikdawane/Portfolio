@@ -82,7 +82,7 @@ const Navbar = ({ activeSection }) => {
         >
           <span></span>
           <span></span>
-          <span><FaBars /></span>
+          <span><FaBars style={{color: "#00f5ff"}} /></span>
         </motion.button>
       </div>
     </motion.header>
@@ -91,3 +91,4 @@ const Navbar = ({ activeSection }) => {
 
 
 export default Navbar;
+
